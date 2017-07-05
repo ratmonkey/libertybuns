@@ -17,7 +17,7 @@ minetest.register_node("libertybuns:deerbun", {
 minetest.register_craft({
 	output = "libertybuns:deerbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:red" , "dye:red" , "" }, 
 		{ "dye:brown" , "dye:black" , "" }
 		}
@@ -39,7 +39,7 @@ minetest.register_node("libertybuns:dracubun", {
 minetest.register_craft({
 	output = "libertybuns:dracubun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:red" , "dye:white" , "" }, 
 		{ "dye:brown" , "dye:black" , "" }
 		}
@@ -61,7 +61,7 @@ minetest.register_node("libertybuns:hambun", {
 minetest.register_craft({
 	output = "libertybuns:hambun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:yellow" , "dye:yellow" , "" }, 
 		{ "dye:brown" , "dye:black" , "" }
 		}
@@ -84,7 +84,7 @@ minetest.register_node("libertybuns:hurtbun", {
 minetest.register_craft({
 	output = "libertybuns:hurtbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:pink" , "dye:white" , "" }, 
 		{ "dye:red" , "dye:black" , "" }
 		}
@@ -106,7 +106,7 @@ minetest.register_node("libertybuns:lovebun", {
 minetest.register_craft({
 	output = "libertybuns:lovebun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:red" , "dye:green" , "" }, 
 		{ "dye:blue" , "dye:black" , "" }
 		}
@@ -129,7 +129,7 @@ minetest.register_node("libertybuns:moldbun", {
 minetest.register_craft({
 	output = "libertybuns:moldbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:green" , "dye:green" , "" }, 
 		{ "dye:white" , "dye:black" , "" }
 		}
@@ -152,7 +152,7 @@ minetest.register_node("libertybuns:nightbun", {
 minetest.register_craft({
 	output = "libertybuns:nightbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:blue" , "dye:blue" , "" }, 
 		{ "dye:yellow" , "dye:black" , "" }
 		}
@@ -176,7 +176,7 @@ minetest.register_node("libertybuns:pinkbun", {
 minetest.register_craft({
 	output = "libertybuns:pinkbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:pink" , "dye:pink" , "" }, 
 		{ "dye:pink" , "dye:black" , "" }
 		}
@@ -198,7 +198,7 @@ minetest.register_node("libertybuns:purbun", {
 minetest.register_craft({
 	output = "libertybuns:purbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:blue" , "dye:red" , "" }, 
 		{ "dye:white" , "dye:black" , "" }
 		}
@@ -220,7 +220,7 @@ minetest.register_node("libertybuns:seabun", {
 minetest.register_craft({
 	output = "libertybuns:seabun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:blue" , "dye:blue" , "" }, 
 		{ "dye:cyan" , "dye:black" , "" }
 		}
@@ -242,7 +242,7 @@ minetest.register_node("libertybuns:tigrebun", {
 minetest.register_craft({
 	output = "libertybuns:tigrebun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:yellow" , "dye:yellow" , "" }, 
 		{ "dye:yellow" , "dye:black" , "" }
 		}
@@ -264,7 +264,7 @@ minetest.register_node("libertybuns:winterbun", {
 minetest.register_craft({
 	output = "libertybuns:winterbun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:cyan" , "dye:white" , "" }, 
 		{ "dye:white" , "dye:black" , "" }
 		}
@@ -286,7 +286,7 @@ minetest.register_node("libertybuns:zombun", {
 minetest.register_craft({
 	output = "libertybuns:zombun 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:diamondblock" , "" }, 
 		{ "dye:green" , "dye:brown" , "" }, 
 		{ "dye:pink" , "dye:black" , "" }
 		}
