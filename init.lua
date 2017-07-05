@@ -5,7 +5,7 @@
 	--Deer--
 	--------
 
-minetest.register_node("libertylights:deerbun", {
+minetest.register_node("libertybuns:deerbun", {
 	description = "deer bun",
 	tiles = {"deerbun_top.png", "deerbun_top.png", "deerbun.png"},
 	groups = { snappy=3 },
@@ -15,7 +15,7 @@ minetest.register_node("libertylights:deerbun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:deerbun 2",
+	output = "libertybuns:deerbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:red" , "dye:red" , "" }, 
@@ -27,7 +27,7 @@ minetest.register_craft({
 	--Decula--
 	----------
 
-minetest.register_node("libertylights:dracubun", {
+minetest.register_node("libertybuns:dracubun", {
 	description = "dracula bun",
 	tiles = {"dracubun_top.png", "dracubun_top.png", "dracubun.png"},
 	groups = { snappy=3 },
@@ -37,7 +37,7 @@ minetest.register_node("libertylights:dracubun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:dracubun 2",
+	output = "libertybuns:dracubun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:red" , "dye:white" , "" }, 
@@ -49,7 +49,7 @@ minetest.register_craft({
 	--Hamster--
 	-----------
 
-minetest.register_node("libertylights:hambun", {
+minetest.register_node("libertybuns:hambun", {
 	description = "Hamster bun",
 	tiles = {"hambun_top.png", "hambun_top.png", "hambun.png"},
 	groups = { snappy=3 },
@@ -59,7 +59,7 @@ minetest.register_node("libertylights:hambun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:hambun 2",
+	output = "libertybuns:hambun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:yellow" , "dye:yellow" , "" }, 
@@ -72,7 +72,7 @@ minetest.register_craft({
 	--Hurt--
 	--------
 
-minetest.register_node("libertylights:hurtbun", {
+minetest.register_node("libertybuns:hurtbun", {
 	description = "Hurt Bun",
 	tiles = {"hurtbun_top.png", "hurtbun_top.png", "hurtbun.png"},
 	groups = { snappy=3 },
@@ -82,7 +82,7 @@ minetest.register_node("libertylights:hurtbun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:hurtbun 2",
+	output = "libertybuns:hurtbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:pink" , "dye:white" , "" }, 
@@ -94,7 +94,7 @@ minetest.register_craft({
 	--Love--
 	--------
 
-minetest.register_node("libertylights:lovebun", {
+minetest.register_node("libertybuns:lovebun", {
 	description = "Love Bun",
 	tiles = {"lovebun_top.png", "lovebun_top.png", "lovebun.png"},
 	groups = { snappy=3 },
@@ -104,7 +104,7 @@ minetest.register_node("libertylights:lovebun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:lovebun 2",
+	output = "libertybuns:lovebun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:red" , "dye:green" , "" }, 
@@ -116,7 +116,7 @@ minetest.register_craft({
 	--Mold--
 	--------
 
-minetest.register_node("libertylights:moldbun", {
+minetest.register_node("libertybuns:moldbun", {
 	description = "mold bun",
 	tiles = {"moldbun_top.png", "moldbun_top.png", "moldbun.png"},
 	groups = { snappy=3 },
@@ -127,7 +127,7 @@ minetest.register_node("libertylights:moldbun", {
 
 
 minetest.register_craft({
-	output = "libertylights:moldbun 2",
+	output = "libertybuns:moldbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:green" , "dye:green" , "" }, 
@@ -139,7 +139,7 @@ minetest.register_craft({
 	--Night--
 	---------
 
-minetest.register_node("libertylights:nightbun", {
+minetest.register_node("libertybuns:nightbun", {
 	description = "night bun",
 	tiles = {"nightbun_top.png", "nightbun_top.png", "nightbun.png"},
 	groups = { snappy=3 },
@@ -150,7 +150,7 @@ minetest.register_node("libertylights:nightbun", {
 
 
 minetest.register_craft({
-	output = "libertylights:nightbun 2",
+	output = "libertybuns:nightbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:blue" , "dye:blue" , "" }, 
@@ -163,7 +163,7 @@ minetest.register_craft({
 	--------
 
 
-minetest.register_node("libertylights:pinkbun", {
+minetest.register_node("libertybuns:pinkbun", {
 	description = "pink bun",
 	tiles = {"pinkbun_top.png", "pinkbun_top.png", "pinkbun.png"},
 	groups = { snappy=3 },
@@ -174,7 +174,7 @@ minetest.register_node("libertylights:pinkbun", {
 
 
 minetest.register_craft({
-	output = "libertylights:pinkbun 2",
+	output = "libertybuns:pinkbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:pink" , "dye:pink" , "" }, 
@@ -186,7 +186,7 @@ minetest.register_craft({
 	--Purple--
 	----------
 
-minetest.register_node("libertylights:purbun", {
+minetest.register_node("libertybuns:purbun", {
 	description = "Purple Bun",
 	tiles = {"purbun_top.png", "purbun_top.png", "purbun.png"},
 	groups = { snappy=3 },
@@ -196,7 +196,7 @@ minetest.register_node("libertylights:purbun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:purbun 2",
+	output = "libertybuns:purbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:blue" , "dye:red" , "" }, 
@@ -208,7 +208,7 @@ minetest.register_craft({
 	--Sea--
 	-------
 
-minetest.register_node("libertylights:seabun", {
+minetest.register_node("libertybuns:seabun", {
 	description = "Sea Bun",
 	tiles = {"seabun_top.png", "seabun_top.png", "seabun.png"},
 	groups = { snappy=3 },
@@ -218,7 +218,7 @@ minetest.register_node("libertylights:seabun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:seabun 2",
+	output = "libertybuns:seabun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:blue" , "dye:blue" , "" }, 
@@ -230,7 +230,7 @@ minetest.register_craft({
 	--Tiger--
 	---------
 
-minetest.register_node("libertylights:tigrebun", {
+minetest.register_node("libertybuns:tigrebun", {
 	description = "Tiger Bun",
 	tiles = {"tigerbun_top.png", "tigerbun_top.png", "tigerbun.png"},
         groups = { snappy=3 },
@@ -240,7 +240,7 @@ minetest.register_node("libertylights:tigrebun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:tigrebun 2",
+	output = "libertybuns:tigrebun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:yellow" , "dye:yellow" , "" }, 
@@ -252,7 +252,7 @@ minetest.register_craft({
 	--Winter--
 	----------
 
-minetest.register_node("libertylights:winterbun", {
+minetest.register_node("libertybuns:winterbun", {
 	description = "Winter Bun",
 	tiles = {"winterbun_top.png", "winterbun_top.png", "winterbun.png"},
 	groups = { snappy=3 },
@@ -262,7 +262,7 @@ minetest.register_node("libertylights:winterbun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:winterbun 2",
+	output = "libertybuns:winterbun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:cyan" , "dye:white" , "" }, 
@@ -274,7 +274,7 @@ minetest.register_craft({
 	--Zombie--
 	----------
 
-minetest.register_node("libertylights:zombun", {
+minetest.register_node("libertybuns:zombun", {
 	description = "Zombie Bun",
         tiles = {"zombun_top.png", "zombun_top.png", "zombun.png"},
 	groups = { snappy=3 },
@@ -284,7 +284,7 @@ minetest.register_node("libertylights:zombun", {
 })
 
 minetest.register_craft({
-	output = "libertylights:zombun 2",
+	output = "libertybuns:zombun 2",
 	recipe = {
 		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
 		{ "dye:green" , "dye:brown" , "" }, 
